@@ -1,0 +1,72 @@
+
+/*IMPORT FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Work-Sans');
+
+:root {
+    --xs: 0.8em;
+    --s: 1em;
+    --m: 1.3em;
+    --l: 1.999em;
+    --xl: 2.827em;
+    --xxl: 3.998em;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.2;
+    color: var(--text-color);
+    text-rendering: optimizeLegibility;
+    background: var(--bg-color);
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: common-ligatures;
+    -webkit-font-variant-ligatures: common-ligatures;
+}
+
+h1, h2, h3, h4, h5, p {
+    opacity: 0.8;
+}
+
+h1,h2,h3,h4{
+  font-weight:500;
+
+}
+
+h1 {
+    font-size: var(--m);
+    color: #88b04b;
+}
+
+h2 {
+    font-size: var(--xl);
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: var(--l);
+}
+
+h4 {
+    font-size: var(--m);
+}
+
+p {
+    font-size: var(--m);
+}
+
+.hero{
+  height:100%;
+  position:absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+a{
+  color:blue;
+  text-decoration: none;
+  border-bottom:1px solid blue;
+}
